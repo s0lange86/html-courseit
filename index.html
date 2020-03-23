@@ -24,6 +24,77 @@
 
         <br>
         <br>
+        <input type="password" maxlength="5">
+
+        <input type="hidden" name="id" value="123">
+        <br>
+        <br>
+        
+        <form action="miformulario.com/form">
+            <h2>Formulario de contacto de doges</h2>
+            <label>
+                Nombre del Doge
+                <input type="text" name="nombre" id="input-name" placeholder="Nombre tu doge">
+            </label>
+            <br>
+            <label>
+                Apellido del Doge
+                <input type="text" name="apellido" id="input-lastname" placeholder="Apellido del doge">
+            </label>           
+            <br>
+
+            <h3>Color de la lengua de tu doge</h3>
+            <label>
+                <input type="radio" name="tongue_color" value="red">
+                Rojo
+            </label>
+            <label>
+                <input type="radio" name="tongue_color" value="green">
+                Verde
+            </label>
+            <br>
+            <br>
+
+            <h3>Tipo de alimento que esta bestia engulle</h3>
+
+            <label>
+                Balanceado
+                <input type="checkbox" name="comida-balanceada" value="balanceado">
+            </label>
+            <br>
+            <label>
+                Común
+                <input type="checkbox" name="comida-comun" value="comun">
+            </label>
+
+            <br>
+            <br>
+            <label>
+                Contextura del doge:
+                <select name="doge-fatness">
+                    <option value="flaquito">Flaquito</option>
+                    <option value="maso">Más o menos</option>
+                    <option value="rellenito">Rellenito</option>
+                </select>
+            </label>
+            <br>
+            <br>
+
+            <label>
+                Foto del doge
+                <input type="file" accept=".jpg,.png,.bmp">
+            </label>
+            <br>
+            <br>
+            <label for="doge-description-id">Descripción del doge</label>
+            <br>
+            <br>
+            <textarea name="doge-description" id="doge-description-id" cols="30" rows="10"></textarea>       
+            <br>
+            <br>
+            <input type="submit" value="enviar mi informacion de mi doge">
+
+        </form>
 
         <div style="background-color: coral;">
             <a href="google.com">Google</a>
