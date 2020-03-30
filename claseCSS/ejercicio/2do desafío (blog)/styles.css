@@ -1,0 +1,78 @@
+
+.article .post,
+.article .autor,
+.article .css,
+.article .javascript,
+.article .pure,
+.article .tittle {
+    font-family: sans-serif;
+}
+
+.article .post {
+    color:#D4D4D4;
+    font-weight: 600;
+}
+
+.article .hr {
+    border-color: rgb(241, 237, 237);
+    border-style: solid;
+    border-bottom: 0;    
+}
+
+.article {
+    width: 850px;
+    margin: 5em auto;
+}
+
+.article .image1,
+.article .image2 {
+    width: 8%;
+    float: right;
+    margin-top: 1em;
+    border-radius: 50px;
+}
+
+.article .tittle {
+    font-size: 2em;
+}
+
+.article .css {
+    border-style: solid;
+    border-width: 0;
+    padding: 0.2em 0.8em 0.2em 0.8em;
+    background-color: #35B94A;
+    color: white;
+    font-size: 0.9em;
+}
+
+.article .pure {
+    border-style: solid;
+    border-width: 0;
+    padding: 0.2em 0.8em 0.2em 0.8em;
+    background-color: #587ACC;
+    color: white;
+    font-size: 0.9em
+}
+
+.article .javascript {
+    border-style: solid;
+    border-width: 0;
+    padding: 0.2em 0.8em 0.2em 0.8em;
+    background-color: #CC2745;
+    color: white;
+    font-size: 0.9em
+}
+
+.article .link {
+    color: #429ACC;
+}
+
+.article .autor {
+    font-size: 0.9em;
+}
+
+.article .text {
+    font-family: Georgia;
+    line-height: 1.8em;
+    color: #686870;
+}
