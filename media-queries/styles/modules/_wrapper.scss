@@ -1,0 +1,56 @@
+.wrapper {
+    background-color: rgb(224, 224, 224);
+    display: flex;
+   
+    .content-filters{
+        flex-shrink: 0;
+        margin: 1rem; 
+        min-width: 170px;
+
+        font-weight: 600;
+
+        
+        .filters{
+            margin:1rem 0;
+            background-color: #fafafa;
+            border-radius: 30px;
+            padding: 0.8rem;
+
+            font-size: 0.8rem;
+
+            display: flex;
+            justify-content: space-between;
+
+        }
+    }
+
+    .content-wrapper{
+        border: solid 1px;
+        // flex-grow: 1;
+        
+        .title-wrapper{
+            border:solid 1px;
+        }
+        
+        .article{
+            border:solid 1px;
+            
+            
+            .image-article{
+                width: 33%;
+        
+            }
+        }
+
+              
+
+            
+
+                
+            
+            
+
+        
+        
+    }
+}

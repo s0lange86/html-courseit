@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -52,9 +53,53 @@ table {
   border-spacing: 0;
 }
 
+.wrapper {
+  background-color: #e0e0e0;
+  display: flex;
+}
+.wrapper .content-filters {
+  flex-shrink: 0;
+  margin: 1rem;
+  min-width: 170px;
+  font-weight: 600;
+}
+.wrapper .content-filters .filters {
+  margin: 1rem 0;
+  background-color: #fafafa;
+  border-radius: 30px;
+  padding: 0.8rem;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper .content-wrapper {
+  border: solid 1px;
+}
+.wrapper .content-wrapper .title-wrapper {
+  border: solid 1px;
+}
+.wrapper .content-wrapper .article {
+  border: solid 1px;
+}
+.wrapper .content-wrapper .article .image-article {
+  width: 33%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 body {
-  color: #fafafa;
-  background-color: #333;
+  background-color: #fafafa;
+  font-family: "Open Sans", sans-serif;
+}
+
+.general .title-store {
+  padding: 1rem;
+}
+.general .title-store .title {
+  font-size: 2rem;
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=index.css.map */
