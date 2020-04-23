@@ -1,0 +1,44 @@
+
+$desktop-size:1024px;
+$tablet-size:768px;
+$tablet-mini-size: 600px;
+$movile-size:320px;
+
+.footer{
+    margin: 1.5rem;
+    font-size: 0.8rem;
+    color: #7C8289;
+
+    @media (max-width:$tablet-size){
+        margin: 1.2rem;
+    }
+
+    @media (max-width:$tablet-mini-size){
+        margin: 1.2rem;
+    }
+
+    @media (max-width:$movile-size){
+        margin:1rem;
+    }      
+    
+    .text-footer{
+        line-height: 1.3rem;
+        
+    }
+
+    .title-page{
+        font-size: 1rem;
+        font-weight: 600;
+        margin-top:1rem;
+    }
+
+    .icons-rss{
+        margin-top: 0.5rem;
+        .fab{
+            background-color: rgb(224, 224, 224);
+            padding:0.5rem;
+            border-radius: 15px;
+            margin: 0.3rem;
+        }
+    }
+}

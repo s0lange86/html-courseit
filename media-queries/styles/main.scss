@@ -4,6 +4,11 @@
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
 
+$desktop-size:1024px;
+$tablet-mini-size: 600px;
+$tablet-size:768px;
+$movile-size:320px;
+
 * {
     box-sizing: border-box;
 }
@@ -14,8 +19,7 @@ body {
     font-family: 'Open Sans', sans-serif;  
 }
 
-.general{
-    
+.general{   
 
     .title-store{
         padding: 1rem;
@@ -23,6 +27,22 @@ body {
         .title{
             font-size: 2rem;
             font-weight: 600;
+
+            @media (max-width:$desktop-size){
+                font-size: 1.7rem;
+            }
+
+            @media (max-width:$tablet-size){
+                font-size: 1.5rem;
+            }
+
+            @media (max-width: $tablet-mini-size){
+                font-size: 1.5rem;
+            }
+
+            @media (max-width:$movile-size){
+                font-size: 1.2rem;
+            }
         }
     }
 }
